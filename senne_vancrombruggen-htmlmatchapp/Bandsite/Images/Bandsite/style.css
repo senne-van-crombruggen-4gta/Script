@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap');
+
+body {
+    background-color: rgb(56, 179, 173);
+    font-family: 'Radjhani', sans-serif;
+}
+
+section {
+    background-color: rgb(103, 212, 209)
+}
+
+section#tour {
+    background-color: rgb(123, 199, 197);
+}
+
+nav li{
+    display: inline-block;
+}
+
+nav a{
+    display: block;
+    padding: 16px;
+}
+
+section{
+    padding: 14px;
+}
+nav{
+    background-color: rgb(103, 212, 209);
+}
+nav a:hover{
+    background-color: rgb(150, 237, 237);
+    color: rgb(56, 179, 173);
+}
+
+img{
+    width:30%
+}
+
+header {
+    background-image: url(Images/who-is-central-cee.jpg);
+    background-size: 200px;
+    background-position-x: center;
+    
+}
+
+.flexbox {
+    display: flex;
+}
+
+.flexbox img {
+    width: 100%;
+}

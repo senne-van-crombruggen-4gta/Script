@@ -1,0 +1,47 @@
+body {
+    background-color: rgb(205, 225, 185);
+}
+
+#about {
+    display: flex;
+    padding: 5%;
+    /* margin:4% 0; */
+}
+
+header,main,footer{
+    font-family: Arial, Helvetica, sans-serif
+}
+
+main{
+    border-bottom: 2px  solid lightgray;
+    margin: 0 5%;
+}
+
+.left{
+    /*width: 30%; */
+    flex: 2;
+}
+
+.right{
+    /*width: % */
+    flex: 2;
+    border-left: solid rgb(0, 0, 0)
+}
+
+#about{
+    display: flex;
+    background-color: beige;
+    border-radius: 40px
+  
+}
+.col {
+    flex: 1;
+    padding: 20px;
+}
+
+a{
+    color:rgb(0, 0, 0)
+}
+
+a:hover
+{color: rgb(64, 69, 61)}

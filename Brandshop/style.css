@@ -85,3 +85,8 @@ img {
     flex-wrap: wrap;
     gap: 3rem;
 }
+
+.videoframe {
+    overflow: hidden;
+    
+}

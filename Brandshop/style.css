@@ -11,6 +11,15 @@ body {
     font-family: 'Golos Text', sans-serif;
 }
 
+h3 {
+    font-size: 1rem;
+}
+
+img {
+    display: block;
+    width: 100%;
+}
+
 header {
     padding: 10px;
     background-color: rgb(213, 232, 226);
@@ -20,6 +29,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 3rem;
 }
 
 header nav li {
@@ -55,39 +65,37 @@ main {
     font-variation-settings: "STYL" 0;
 }
 
+section {
+    margin-bottom: 2rem;
+}
+
 .videoframe {
     overflow: hidden;
     margin-bottom: 3rem;
     max-height: 50vh;
 }
 
-video{
+video {
     width: 100%;
-}
-
-.flex-container {
-    display: flex;
-    justify-content: space-between;
-    gap: 2rem;
 }
 
 .flex-item {
     flex: 1;
 }
 
-img {
-    width: 100%;
-    
-}
-.flex-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 3rem;
-}
-
 .videoframe {
     overflow: hidden;
-    
+
+}
+
+figure {
+    position: relative;
+}
+
+figcaption {
+    position: absolute;
+    bottom: 12%;
+    left: 15%;
+    background-color: aliceblue;
+    border-radius: 3rem;
 }

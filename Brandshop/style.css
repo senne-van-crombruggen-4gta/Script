@@ -99,3 +99,30 @@ figcaption {
     background-color: aliceblue;
     border-radius: 3rem;
 }
+
+.call2action {
+    background-color: #4FECE5;
+}
+
+.call2action {
+    background-image: "Static/Join us.webp";
+    background-size: cover;
+    background-position: right;
+}
+
+footer {
+    background-color: aliceblue;
+}
+
+footer li {
+    list-style:none
+}
+
+footer li:first-child a {
+    font-weight: 900;
+    font-size: 1.2rem;
+}
+
+footer .flex-container:first-child {
+    margin-bottom: 2rem;
+}

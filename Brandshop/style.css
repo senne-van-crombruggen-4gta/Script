@@ -100,12 +100,12 @@ figcaption {
     border-radius: 3rem;
 }
 
-.call2action {
-    background-color: #4FECE5;
+.bgc-highlights {
+    background-color: #E1E1E1;
 }
 
-.call2action {
-    background-image: "Static/Join us.webp";
+.bgd-joinus {
+    background-image: url("Static/Join\ us.webp");
     background-size: cover;
     background-position: right;
 }
@@ -126,3 +126,9 @@ footer li:first-child a {
 footer .flex-container:first-child {
     margin-bottom: 2rem;
 }
+
+footer li::first-line a {
+    font-weight: 900;
+    font-size: 1.2rem;
+}
+

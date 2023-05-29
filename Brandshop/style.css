@@ -108,6 +108,7 @@ figcaption {
     background-image: url("Static/Join\ us.webp");
     background-size: cover;
     background-position: right;
+    align-self: stretch;
 }
 
 footer {
